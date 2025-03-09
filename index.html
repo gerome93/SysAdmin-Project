@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet SysAdmin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Projets en Administration Système</h1>
+    <p class="description">
+        J'ai créé ce site pour présenter toutes mes compétences sous forme de tutoriels PDF à partir de mes machines .
+    </p>
+
+    <div class="buttons">
+        <button class="main-btn windows" onclick="showTutorials('windows')">Windows</button>
+        <button class="main-btn linux" onclick="showTutorials('linux')">Linux</button>
+    </div>
+
+    <div id="tutorials-container" class="hidden">
+        <div id="tutorials-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

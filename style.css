@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.main-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.windows {
+    background-color: #0078D7;
+}
+
+.linux {
+    background-color: #F16529;
+}
+
+#tutorials-container {
+    margin-top: 20px;
+}
+
+#tutorials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.tutorial-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tutorial-btn:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}

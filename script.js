@@ -9,10 +9,10 @@ const tutorials = {
       
     ],
     linux: [
-        { name: "Installation Ubuntu Server", file: "ubuntu_server_installation.pdf" },
-        { name: "Gestion des utilisateurs", file: "gestion_utilisateurs_linux.pdf" },
-        { name: "Sécurisation d’un serveur", file: "securisation_serveur.pdf" },
-        { name: "Scripts Bash", file: "scripts_bash.pdf" }
+        { name: "Installation d'un serveur Debian 12", file: "l'installation d'un serveur debian 12 L1.pdf" },
+        { name: "gestion utilisateur groupe et droits sur serveur", file: "gestion utilisateur groupe et droit sur serveur L2.pdf" },
+        { name: "installation d'un serveur NGINX", file: "installation d'un serveur nginx L3.pdf" },
+        { name: "Création d'un serveur LAMP", file: "installation d'un serveur lampL4.pdf" }
     ]
 };
 
